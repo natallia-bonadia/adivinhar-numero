@@ -1,4 +1,4 @@
-# Jogo da Adivinhação
+# Jogo da Adivinhação - Números entre 1 e 300
 Para jogá-lo acesse: <https://natallia-bonadia.github.io/adivinhar-numero/>
 
 ## 💻 Sobre o projeto
