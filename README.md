@@ -1,5 +1,5 @@
 # Jogo da Adivinhação
-Para jogá-lo acesse: <https://github.com/natallia-bonadia/adivinhar-numero>
+Para jogá-lo acesse: <https://natallia-bonadia.github.io/adivinhar-numero/>
 
 ## 💻 Sobre o projeto
 A lógica do projeto se baseia em receber um número através de uma requisição e implementar um jogo para acertar este número através de palpites.
