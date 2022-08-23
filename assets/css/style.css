@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.body {
+  background-image: linear-gradient(#EEEEEE, #FFFFFF);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 44px;
+}
+
+.container .title,
+.container .return-message {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.container .title {
+  background-image: linear-gradient(#EF6C00, #DB6300);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.container hr {
+  border: 0;
+	border-top: 1px solid #CFCFCF;
+  width: 255px;
+  margin-bottom: 49px;
+}
+
+.container .return-message {
+  color: #FF6600;
+  font-size: 16px;
+  margin-bottom: 33px;
+}
+
+.container .led-panel {
+  margin-bottom: 31px;
+}
+
+.container .led-panel .hundreds,
+.container .led-panel .tens {
+  margin-right: 12px;
+}
+
+
+.container button {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 4px;
+  padding: 13px 13px;
+}
+
+.container .reset {
+  background-image: linear-gradient(#434854, #9E9E9E);
+  color: #FFFFFF;
+  margin-bottom: 78px;
+}
+
+.container .reset i {
+  margin-right: 7px;
+}
+
+.container .form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 11px
+}
+
+.container .form input {
+  border: 1px solid #9E9E9E;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 12px;
+  width: 247px;
+  padding: 13px 10px;
+  border-radius: 4px;
+}
+
+.container .form input::-webkit-input-placeholder {
+  font-family: 'Roboto', sans-serif;
+  color: #9E9E9E;
+}
+
+.container .form input:-moz-placeholder {
+  font-family: 'Roboto', sans-serif;
+  color: #9E9E9E;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.container .form input:focus {
+  border: 1px solid #FF6600;
+}
+
+.container .form button {
+  background-image: linear-gradient(#EF6C00, #C0661C);
+  color: #FFFFFF;
+}
+
+.container .form input:disabled {
+  background-color: #F5F5F5 !important;
+}
+
+.container .form button:disabled {
+  background-color: #DDDDDD !important;
+}

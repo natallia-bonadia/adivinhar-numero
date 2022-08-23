@@ -1,0 +1,40 @@
+@media (min-width: 450px) {
+  .container .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .container .title {
+    font-size: 24px;
+  }
+
+  .container hr {
+    width: 205px;
+    margin-bottom: 90px;
+  }
+
+  .container .led-panel {
+    margin-bottom: 55px;
+  }
+
+  .container .led-panel .hundreds,
+  .container .led-panel .tens {
+  margin-right: 9px;
+}
+
+  .container .desktop {
+    display: none;
+  }
+
+  .container .reset {
+    margin-bottom: 73px;
+  }
+}
+/* 
+@media (max-width: 348px) {
+  .container .form input {
+    margin-right: 0px !important;
+  }
+} */
