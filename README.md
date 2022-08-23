@@ -7,12 +7,12 @@ Para construção do display de LED, foram utilizadas tags svg compostas por tag
 Ao receber o número escolhido pelo jogador, o programa fará a comparação com o número sorteado através da requisição.
 Será retornado na tela se o número escolhido é maior, menor, igual ou inválido (abaixo de 1 e acima de 300) e, caso seja igual ou inválido, o jogo é finalizado e será possível, através de um botão, iniciá-lo novamente.
 
-### Linguagens utilizadas
+### 🛠 Linguagens
 - HTML5
 - CSS3
 - JavaScript
 
-### Funcionalidades
+### ⚙️ Funcionalidades
 - [x] Sorteio de um número via requisição utilizando endpoint
 - [x] Envio do número via formulário
 - [x] Retorno dos números no formato de LED de 7 segmentos
